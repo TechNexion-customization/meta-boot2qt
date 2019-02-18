@@ -16,6 +16,7 @@
   <remote fetch="git://github.com/boundarydevices" name="boundary"/>
   <remote fetch="git://github.com/toradex" name="toradex-github"/>
   <remote fetch="git://source.codeaurora.org/external/imx" name="aurora-imx"/>
+  <remote fetch="https://github.com/TechNexion" name="technexion"/>
 
   <project name="poky"
            remote="yocto"
@@ -38,12 +39,12 @@
            remote="freescale"
            revision="27ca94f8a4336790ba117b4298566f6820e7e74c"
            path="sources/meta-freescale"
-           groups="notdefault,external,fsl,toradex,smx6,boundary,fsl-imx8,toradex-imx8"/>
+           groups="notdefault,external,fsl,toradex,smx6,boundary,technexion,fsl-imx8,toradex-imx8"/>
   <project name="meta-freescale-3rdparty"
            remote="freescale"
            revision="82037216280a39957fb4272581637abec734ad50"
            path="sources/meta-freescale-3rdparty"
-           groups="notdefault,external,fsl,toradex,smx6,boundary,fsl-imx8,toradex-imx8"/>
+           groups="notdefault,external,fsl,toradex,smx6,boundary,technexion,fsl-imx8,toradex-imx8"/>
   <project name="meta-raspberrypi"
            remote="yocto"
            revision="2d40b000021bc8a9ef7f329ed0ad410f8d227b97"
@@ -93,13 +94,17 @@
            remote="aurora-imx"
            revision="cb65aa03c70d0b88cdc2b06eb56ab59ae01f54bf"
            path="sources/meta-fsl-bsp-release"
-           groups="notdefault,external,fsl-imx8"/>
+           groups="notdefault,external,fsl-imx8,technexion"/>
   <project name="meta-fsl-bsp-release"
            remote="toradex-github"
            revision="55754a3cc79759f18fa1df88ae2ffa91fbd87d84"
            path="sources/meta-fsl-bsp-release-toradex"
            groups="notdefault,external,toradex-imx8"/>
-
+  <project name="meta-edm-bsp-release"
+           remote="technexion"
+           revision="0c37187cc232f14bf87792337adfa7909cfe37d3"
+           path="sources/meta-edm-bsp-release"
+           groups="notdefault,external,technexion"/>
   <project name="nvidia-layer"
            remote="playground"
            revision="af6f41cb527f35263cf7bfde222d92600f5e66e2"
