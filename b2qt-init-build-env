@@ -127,6 +127,9 @@ get_groups() {
     nitrogen6x|nitrogen7)
       PROJECT_GROUPS="boundary"
     ;;
+    pico-imx6|pico-imx6ul|pico-imx6ull|pico-imx7|pico-imx8m|pico-imx8mq|pico-imx8mm)
+      PROJECT_GROUPS="technexion"
+    ;;
     imx6qdlsabresd|imx7dsabresd|imx7s-warp)
       PROJECT_GROUPS="fsl"
     ;;
