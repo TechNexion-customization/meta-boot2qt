@@ -35,7 +35,7 @@ inherit bin_package native
 
 do_unpack[depends] += "p7zip-native:do_populate_sysroot"
 
-SRC_URI = "http://download.qt.io/development_releases/installer-framework/${PV}/installer-framework-build-stripped-${PV}-linux-x64.7z"
+SRC_URI = "http://mirror.bit.edu.cn/qtproject/development_releases/installer-framework/${PV}/installer-framework-build-stripped-${PV}-linux-x64.7z"
 
 SRC_URI[md5sum] = "68b7c1f761ca0dba18f1d165d66005d6"
 SRC_URI[sha256sum] = "c2eb769351025e0c7df2882116390fffaf958368f873a2abab99e37caee0a498"
