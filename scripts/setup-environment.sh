@@ -68,7 +68,7 @@ if [ ! -f ${PWD}/${BUILDDIRECTORY}/conf/bblayers.conf ]; then
     nitrogen6x|nitrogen7)
       LAYERSCONF="bblayers.conf.boundary.sample"
     ;;
-    pico-imx6|pico-imx6ul|pico-imx6ull|pico-imx7|pico-imx8m|pico-imx8mq|pico-imx8mm)
+    pico-imx6|pico-imx6ul|pico-imx6ull|pico-imx7|pico-imx8mq|pico-imx8mm)
       LAYERSCONF="bblayers.conf.technexion.sample"
     ;;
     imx6qdlsabresd|imx7dsabresd|imx7s-warp)
