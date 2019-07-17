@@ -102,7 +102,7 @@
            groups="notdefault,external,toradex-imx8"/>
   <project name="meta-edm-bsp-release"
            remote="technexion"
-           revision="4a86f5ff1b9858fe41a41aaee3c8e6ac775b1cd7"
+           revision="f878623ea122f3a8fa6d8b7a83d137b57c795e57"
            path="sources/meta-edm-bsp-release"
            groups="notdefault,external,technexion"/>
   <project name="nvidia-layer"
