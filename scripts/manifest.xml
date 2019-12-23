@@ -100,10 +100,10 @@
            revision="55754a3cc79759f18fa1df88ae2ffa91fbd87d84"
            path="sources/meta-fsl-bsp-release-toradex"
            groups="notdefault,external,toradex-imx8"/>
-  <project name="meta-edm-bsp-release"
+  <project name="meta-tn-imx-bsp"
            remote="technexion"
-           revision="3388de490387d82e2a87c95fe3bee245fe274d0c"
-           path="sources/meta-edm-bsp-release"
+           revision="161e45966bdd65e0ab649644494fbf240830643c"
+           path="sources/meta-tn-imx-bsp"
            groups="notdefault,external,technexion"/>
   <project name="nvidia-layer"
            remote="playground"
