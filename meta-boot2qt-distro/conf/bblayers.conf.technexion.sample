@@ -38,7 +38,7 @@ BSPDIR := "${@os.path.abspath(os.path.dirname(d.getVar('FILE')) + '/../..')}"
 BBLAYERS ?= " \
   ${BSPDIR}/sources/poky/meta \
   ${BSPDIR}/sources/poky/meta-poky \
-  ${BSPDIR}/sources/meta-edm-bsp-release \
+  ${BSPDIR}/sources/meta-tn-imx-bsp \
   ${BSPDIR}/sources/meta-fsl-bsp-release/imx/meta-bsp \
   ${BSPDIR}/sources/meta-fsl-bsp-release/imx/meta-sdk \
   ${BSPDIR}/sources/meta-freescale \
