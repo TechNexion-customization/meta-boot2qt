@@ -98,4 +98,20 @@
            remote="boundary"
            revision="317c4f037b8b82811be56a271266fb31cdd1fc7a"
            path="sources/meta-boundary"/>
+
+  <!-- TechNexion -->
+  <remote fetch="https://github.com/TechNexion" name="technexion"/>
+  <project name="meta-tn-imx-bsp"
+           remote="technexion"
+           revision="refs/heads/zeus_5.4.47-2.2.0-next"
+           path="sources/meta-tn-imx-bsp"/>
+
+  <!-- TechNexion related (meta-imx) -->
+  <remote name="CAF"
+          fetch="https://source.codeaurora.org/external/imx"/>
+  <project name="meta-imx"
+          remote="CAF"
+          revision="refs/tags/rel_imx_5.4.47_2.2.0"
+          path="sources/meta-imx"/>
+
 </manifest>
