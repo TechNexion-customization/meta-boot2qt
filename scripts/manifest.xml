@@ -102,7 +102,7 @@
            groups="notdefault,external,toradex-imx8"/>
   <project name="meta-tn-imx-bsp"
            remote="technexion"
-           revision="161e45966bdd65e0ab649644494fbf240830643c"
+           revision="b68279b6544757f6569351328d717a792f8a7610"
            path="sources/meta-tn-imx-bsp"
            groups="notdefault,external,technexion"/>
   <project name="nvidia-layer"
