@@ -31,7 +31,7 @@ DESCRIPTION = "Target packages for B2Qt embedded Qt5 SDK"
 LICENSE = "The-Qt-Company-Commercial"
 PR = "r0"
 
-inherit packagegroup
+inherit packagegroup b2qt-utils
 
 PACKAGEGROUP_DISABLE_COMPLEMENTARY = "1"
 
