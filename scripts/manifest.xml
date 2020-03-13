@@ -17,6 +17,7 @@
   <remote fetch="git://github.com/toradex" name="toradex-github"/>
   <remote fetch="git://source.codeaurora.org/external/imx" name="aurora-imx"/>
   <remote fetch="https://github.com/TechNexion" name="technexion"/>
+  <remote fetch="https://github.com/NXPNFCLinux" name="nfc"/>
 
   <project name="poky"
            remote="yocto"
@@ -91,19 +92,24 @@
            path="sources/meta-boundary"
            groups="notdefault,external,boundary"/>
   <project name="meta-fsl-bsp-release"
-           remote="aurora-imx"
-           revision="cb65aa03c70d0b88cdc2b06eb56ab59ae01f54bf"
-           path="sources/meta-fsl-bsp-release"
-           groups="notdefault,external,fsl-imx8,technexion"/>
-  <project name="meta-fsl-bsp-release"
            remote="toradex-github"
            revision="55754a3cc79759f18fa1df88ae2ffa91fbd87d84"
            path="sources/meta-fsl-bsp-release-toradex"
            groups="notdefault,external,toradex-imx8"/>
+  <project name="meta-fsl-bsp-release"
+           remote="aurora-imx"
+           revision="cb65aa03c70d0b88cdc2b06eb56ab59ae01f54bf"
+           path="sources/meta-fsl-bsp-release"
+           groups="notdefault,external,fsl-imx8,technexion"/>
   <project name="meta-tn-imx-bsp"
            remote="technexion"
            revision="b68279b6544757f6569351328d717a792f8a7610"
            path="sources/meta-tn-imx-bsp"
+           groups="notdefault,external,technexion"/>
+  <project name="meta-nxp-nfc"
+           remote="nfc"
+           revision="5d05c57fc8faf3f1bc95c1702e1a6aa78d83412f"
+           path="sources/meta-nxp-nfc"
            groups="notdefault,external,technexion"/>
   <project name="nvidia-layer"
            remote="playground"
