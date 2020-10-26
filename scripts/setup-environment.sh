@@ -56,6 +56,9 @@ BUILDDIRECTORY=${BUILDDIRECTORY:-build-${MACHINE}}
 
 if [ ! -e ${PWD}/${BUILDDIRECTORY} ]; then
   case ${MACHINE} in
+    pico-*|edm-*|flex-*|xore-*|axon-*)
+      LAYERSCONF="bblayers.conf.technexion.sample"
+      ;;
     apalis-*|colibri-*)
       LAYERSCONF="bblayers.conf.toradex.sample"
       ;;
