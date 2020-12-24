@@ -55,3 +55,9 @@ BBLAYERS ?= " \
   ${BSPDIR}/sources/meta-qt5 \
   ${BSPDIR}/sources/meta-nxp-nfc \
   "
+
+BBMASK += "meta-tn-imx-bsp/recipes-python/pyqt4/"
+BBMASK += "meta-tn-imx-bsp/recipes-containers/docker/"
+BBMASK += "meta-tn-imx-bsp/recipes-qt/qt4/"
+BBMASK += "meta-tn-imx-bsp/recipes-qt/qt5/"
+
