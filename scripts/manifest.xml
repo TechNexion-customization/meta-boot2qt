@@ -103,7 +103,7 @@
   <remote fetch="https://github.com/TechNexion" name="technexion"/>
   <project name="meta-tn-imx-bsp"
            remote="technexion"
-           revision="refs/heads/zeus_5.4.47-2.2.0-next"
+           revision="refs/heads/zeus_5.4.70-2.3.0-next"
            path="sources/meta-tn-imx-bsp"/>
 
   <!-- TechNexion related (meta-imx) -->
@@ -111,7 +111,7 @@
           fetch="https://source.codeaurora.org/external/imx"/>
   <project name="meta-imx"
           remote="CAF"
-          revision="refs/tags/rel_imx_5.4.47_2.2.0"
+          revision="refs/tags/rel_imx_5.4.70_2.3.0"
           path="sources/meta-imx"/>
 
 </manifest>
